@@ -7,6 +7,9 @@ Bellman provides a `Circuit` trait which you can use to synthesize the constrain
 `multiply.rs` contains a circuit for the statement "I know `x` and `y` such that `x * y = public_input`". 
  
  `cube.rs` contains a circuit for the statement "I know `x` such that `x^3 + x + 5 == 35`"
+ 
+ `trydemo.rs` contains a circuit for the statement "I know (x,y,z) such that `x^2+y^2 == z^2`"
+ 
  - This is the same example used in [Vitalik’s blog post](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649) and [christianlundkvist's libsnark tutorial](https://github.com/christianlundkvist/libsnark-tutorial).
  
 ### Constructing a circuit  
